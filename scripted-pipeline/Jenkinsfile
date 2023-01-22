@@ -8,7 +8,7 @@ node {
                echo 'Running on Stage #0'
            }
            else {
-               build 'declarative-pipeline/Jenkinsfile'
+               //build 'declarative-pipeline/Jenkinsfile'
                echo 'Running on Stage #1'
            }
       }
